@@ -11,7 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-port = os.environ.get('PORT', '8000') 
 
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ludis.settings')
